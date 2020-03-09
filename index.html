@@ -1,0 +1,268 @@
+<!doctype html>
+<!--ctrl+shift+L=Beautify-->
+<!--referencia para la tipografía trabajo moma"-->
+<!-- img class=img-thumbnail" src=img/y poner el link de la imagen para poner imágenes más pequeñas (miniaturas) pero tienen que estar dentro de un div-->
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--min. código sin espacios-->
+    <!--el "padding" añade márgenes interiores-->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/flores.png" type="image/png" sizes="16x16">
+    <style type=text/css>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            padding: 20px;
+            width: 900px;
+            font-size: 2rem;
+
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .titulos {
+            padding: 100px 0 0 0;
+        }
+
+        nav {
+            padding: 10px 0 10px 0;
+        }
+
+        .contact {
+            width: 800px;
+        }
+
+        body {
+            background-image: url(img/texture.jfif);
+            color: black;
+            font-family: 'Amatic SC', sans-serif;
+            font-size: 2rem
+        }
+
+        .espacio {
+            padding: 50px 0;
+        }
+
+        #projects .row {
+            padding: 200px 0;
+        }
+
+        <title>Portfolio</title>#about .row {
+            padding: 150px 0;
+        }
+
+
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+    </style>
+    <!--si queremos solo que uno de los contenedores tenga un color, sustituimos el nombre de "body" por el del contenedor-->
+
+    <title>Carmen Ferris Portfolio</title>
+    <!--titulo que aparece en la pestaña de arriba-->
+
+</head>
+<!-- <a buscar en proyecto de RGB-->
+
+<body>
+    <h1 class="container">
+        <div class="offset-6 col-6">
+            <nav id=menu>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </h1>
+
+    <header class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1 class="offset-1">
+                    Carmen Ferris González
+                </h1>
+            </div>
+            <div class="col-4">
+                <h1 class="offset-9">
+                    BluetTikkart </h1>
+            </div>
+        </div>
+        <!--los códigos hacen referencia al documento bootstrap-->
+        <!--títulos-->
+        <!--el offset añade márgenes de columnas-->
+        <!--<h2 class="offset- col-6">- Ilustradora y fanática de lo digital</h2>-->
+    </header>
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid" src="img/10.jpg" alt="">
+            </div>
+            <h3 class="col-5 titulos">Mi estilo de trabajo es muy variado, trabajando tanto en digital como en manual con diferentes técnicas.<br><br>
+                - Ilustradora y fanática de lo digital</h3>
+            <!--párrafos-->
+            <p class="col-5"></p>
+            <p class="col-5"></p>
+        </div>
+    </div>
+    <div class="container" id="projects">
+        <div class="row">
+            <div class="col-4">
+                <h3 class="offset-1">
+                    Autorretrato
+                </h3>
+            </div>
+            <div class="col-4">
+                <h3 class="offset-9">
+                    Flor favorita
+                </h3>
+            </div>
+            <img class="col-6" img src="img/1.jpg" alt="">
+            <img class="col-6" img src="img/2.jpg" alt="">
+            <!--    <div class="col-3 titulos" class="container">
+                <h3>Título Proyecto</h3>
+                <h4>De qué va</h4>
+            </div> -->
+        </div>
+
+        <div class=row>
+            <div class="col-3 titulos" id="project">
+                <h3>Pensamientos profundos</h3>
+                <h4>Serie de ilustraciones hechas con la técnica del collage</h4>
+
+            </div>
+            <div class="col-9">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--<div class="col-3">
+                <img src="img/kois.jpg" alt="">
+            </div>-->
+            <div class="col-9">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/9.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/11.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/12.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-3 titulos" id="project">
+                <h3>Retratos</h3>
+                <h4>Serie de ilustraciones con técnica digital</h4>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 titulos" id="project">
+                <h3>Sketches</h3>
+                <h4>Serie de bocetos rápidos, hechos con lápiz de grafito en un cuaderno de artista</h4>
+
+            </div>
+            <!--<div class="col-3">
+                <img src="img/kois.jpg" alt="">
+            </div>-->
+            <div class="col-9">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/17.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/16.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/15.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container" id=contact>
+       <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/BlueTikka">@Twitter</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.instagram.com/bluetikkart/">@Instagram</a>
+  </li>
+</ul>
+        <a href="#menu">Menú</a>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--enlaces a imágenes externas a nuestro dispositivo-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body></html>
